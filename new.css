@@ -1331,6 +1331,7 @@ a{
             margin-left: 4px;
             padding: 4px 10px;
             border-radius: 20px;
+
       }
 
       .choose{
@@ -1384,49 +1385,118 @@ a{
       }
 }
 
-@media (max-width:550px){
+@media (max-width:571px){
 
-      .c img{
-            height: 100.5px;
-            width: 193px;
+      .b{
+            font-size: 37px;
+            margin-left: 28px;
+            font-weight: bolder;
       }
 
-      div.c{
-            margin-left: 10px;
-            width:193px;
-            height: 230px;
+      .all2{
+            width: 100%;
       }
 
-      
-      .buy{
-            margin-left: 5px;
-            padding: 5px 50px;
+      .choose div{
+            margin-left: 7px;
+            font-size: medium;
+            padding:3PX 10px ;
       }
 
-      .c h1{
-            font-size: 24px;
+      .choose{
+            width: 90%;
       }
 
-      .c h2{
-            font-size: 14px;
+      .search3{
+            font-size: 15px;
+            display: block;
+            padding: 3px 10px;
+      }
+      .search2{
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      .search:hover{
+            transform: scale(1.07);
+            padding-bottom: 175px;
+            padding-left: 0px;
+            padding-right: 0px;
+      }
+
+}
+
+@media (max-width:556px){
+
+      .head{
+            height: 130px;
+            background-size:130px ;
+            margin-bottom: 35px;
+      }
+
+      .b{
+            font-size: 35px;
+            margin-left: 25px;
+            word-spacing: 130px;
       }
 }
 
-@media (max-width:480px){
+@media (max-width:533px){
 
-      .c img{
-            height: 90.5px;
-            width: 183px;
+      .b{
+            font-size: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            word-spacing: 0px;
+      }
+
+      .head{
+            background-size:0px ;
+            width: 85%;
+            height:100px;
+            margin-top: 30px;
+      }
+
+}
+
+@media (max-width:522px){
+
+      .all{
+            width: 97%;
+            margin-left: 4px;
+            padding: 0px;
+      }
+
+      .ee{
+            margin-top: 25px;
+            height: 75px;
+      }
+
+      .b{
+            font-size: 40px;
+            padding: 20px;
+            word-spacing: 0px;
+      }
+
+      .head{
+
+            height:90px;
+      }
+
+      .choose div{
+            padding:5PX 10px ;
+            margin-bottom: 15px;
       }
 
       div.c{
-            margin-left: 10px;
-            width:183px;
-            height: 230px;
+            margin-left: 2px;
       }
 }
 
-@media (max-width:456px){
+
+@media (max-width:469px){
 
       .head{
             width:100% ;
@@ -1439,6 +1509,7 @@ a{
             background-position:15px;
             background-size:140px ;
             margin-bottom: 30px;
+            margin-top: 0px;
       }
 
       
@@ -1446,7 +1517,7 @@ a{
             font-size: 55px;
             word-spacing: 73px;
             padding-top:20px ;
-            margin-left: 190px;
+            margin-left: 170px;
             text-align: start;
       }
 
@@ -1455,10 +1526,16 @@ a{
             margin-left: 1%;
       }
 
+      .all2{
+            width: 98%;
+            margin-left: 1%;
+      }
+
       div.c{
             margin-left: 1px;
             width: 160.5px;
-            height: 240px;
+            height: 0px;
+            padding-bottom: 5px;
       }
 
       .c img{
@@ -1467,8 +1544,7 @@ a{
       }
 
       .buy{
-            margin-left: 10%;
-            padding: 5px 60px;
+            padding: 2px 60px;
             font-size: small;
             margin-top: 8%;
       }
@@ -1523,13 +1599,13 @@ a{
       .e{
             font-size: 35px;
             height: 66px;
-            margin-top: 10px;
+            margin-top: 20px;
       }
       
       .ee{
             font-size: 35px;
             height: 65px;
-            margin-top: 10px;
+            margin-top: 20px;
       }
 
 
@@ -1539,134 +1615,140 @@ a{
 
 }
 
-@media (max-width:432px){
 
-      .c img{
-            height: 190.5px;
-            width: 190.5px;
-      }
-
-      div.c{
-            margin-left: 0px;
-            width: 190.5px;
-            height: 230px;
-      }
-
-      .buy{
-            margin-left: 5%;
-            padding: 5px 60px;
-            font-size: small;
-            margin-top: 8%;
-      }
-
-      .all2{
-            width: 283px;
-      }
-}
-
-@media (max-width:408px){
+@media (max-width:425px){
 
       .b{
-            font-size: 50px;
-            padding-top:23px ;
+            margin-left: 170px;
       }
-
-      
-      div.c{
-            margin-left: 0px;
-            width: 160.5px;
-            height: 240px;
-      }
-
-      .all2{
-            width: 90%;
-      }
-}
-
-@media (max-width:405px){
 
       .c img{
-            height: 80.5px;
-            width: 163px;
+            height: 240.5px;
+            width: 323px;
       }
 
       div.c{
-            margin-left: 0px;
-            width: 160.5px;
-            height: 200px;
-      }
-
-      .buy{
-            margin-left: 5%;
-            padding: 3px 60px;
-            font-size: small;
-            margin-top: 8%;
-      }
-}
-
-@media (max-width:402px){
-      
-      .c img{
-            height: 70.5px;
-            width: 153px;
-      }
-
-      div.c{
-            margin-left: 0px;
-            width: 153px;
-            height: 200px;
+            margin-left: 25px;
+            width: 323px;
+            padding-bottom: 10px;
       }
 
       .c h1{
-            font-size: 18px;
+            font-size: 35px;
+            margin-top: 8px;
       }
 
       .c h2{
-            font-size: 10px;
+            font-size: 27px;
       }
 
       .buy{
-            margin-left: 2%;
-            padding: 3px 40px;
-            font-size: small;
+            padding: 3px 80px;
+            font-size: medium;
             margin-top: 8%;
+
+      }
+
+      .e{
+            font-size: 35px;
+            height: 66px;
+            margin-top: 18px;
+      }
+      
+      .ee{
+            font-size: 35px;
+            height: 65px;
+            margin-top: 20px;
+      }
+
+      .search3{
+            font-size: 12px;
+            width: 70px;
+            margin-left: auto;
+            margin-right: auto;
       }
 }
 
-@media (max-width:380px){
+@media (max-width:410px){
 
       .b{
+            padding-top: 30px;
             font-size: 45px;
-            padding-top:30px ;
-            margin-left: 179px;
-      }
-
-
-      .c img{
-            height: 60.5px;
-            width: 143px;
+            margin-left: 160px;
       }
 
       div.c{
-            margin-left: 4px;
-            width: 143px;
-            height: 170px;
+            margin-left: 10px;
+            width: 0px;
+            padding-bottom: 10px;
+      }
+}
+
+@media (max-width:377px){
+
+      .b{
+            padding-top: 35px;
+            font-size: 40px;
+            margin-left: 160px;
+      }
+
+      .c img{
+            height: 220.5px;
+            width: 303px;
+      }
+
+      div.c{
+            margin-left: 8px;
+            width: 0px;
+            padding-bottom: 10px;
+      }
+
+      .search3{
+            font-size: 12px;
+            width:50px;
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      .search:hover{
+            padding-bottom: 173px;
+      }
+}
+
+@media (max-width:358px){
+
+      .head{
+            background-position:10px;
+      }
+
+      .b{
+            padding-top: 35px;
+            font-size: 40px;
+            margin-left: 150px;
+      }
+
+      .c img{
+            height: 200.5px;
+            width: 283px;
       }
 
 }
 
-@media (max-width:363px){
+@media (max-width:347px){
 
-      
-      .c img{
-            height: 50.5px;
-            width: 133px;
+      .head{
+            height: 150px;
+            background-repeat: no-repeat;
+            background-size:130px ;
+            margin-bottom: 30px;
+            margin-top: 0px;
+            background-position:8px;
       }
 
-      div.c{
-            margin-left: 4px;
-            width: 133px;
-            height: 170px;
+      .b{
+            padding-top: 37px;
+            font-size: 38px;
+            margin-left: 135px;
       }
 }
 
@@ -1686,102 +1768,17 @@ a{
 
 @media (max-width:330px){
 
-      .head{
-            background-size:130px ;
-      }
-
       .b{
-            font-size: 32px;
-            padding-top:48px ;
-            margin-left: 163px;
+            padding-top: 35px;
+            font-size: 38px;
+            margin-left: 130px;
       }
 
       .c img{
-            height: 60.5px;
-            width: 143px;
+            height: 180.5px;
+            width: 263px;
       }
 
-      div.c{
-            margin-left: -2px;
-            width: 143px;
-            height: 200px;
-      }
-
-      .buy{
-            margin-left: 11%;
-            padding: 1px 45px;
-            font-size: small;
-            margin-top: 8%;
-      }
-
-      .c h1{
-            font-size: 17px;
-      }
-
-      .c h2{
-            font-size: 9px;
-      }
-
-      .e{
-            font-size: 30px;
-            height: 60px;
-            margin-top: 0px;
-            margin-left:5px ;
-      }
-      
-      .ee{
-            font-size: 30px;
-            height: 60px;
-            margin-top: 0px;
-            margin-left:5px ;
-      }
-
-      .choose{
-            width: 95%;
-            padding-top: 15px;
-      }
-
-      .search{
-            width: 50%;
-            height: 29px;
-            
-      }
 }
 
-@media (max-width:320px){
 
-
-      .all2{
-            width: 100%;
-      }
-      
-      .c img{
-            height: 60.5px;
-            width: 143px;
-      }
-
-      div.c{
-            margin-left: 0px;
-            width: 143px;
-            height: 200px;
-      }
-}
-
-@media (max-width:318px){
-
-
-      .all2{
-            width: 100%;
-      }
-      
-      .c img{
-            height: 55.5px;
-            width: 138px;
-      }
-
-      div.c{
-            margin-left: 0px;
-            width: 138px;
-            height: 150px;
-      }
-}
