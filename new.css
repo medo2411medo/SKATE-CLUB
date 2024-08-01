@@ -190,6 +190,7 @@ div .choose2:hover{
       background-color: #333;
       padding: 4px 10px;
       border-radius: 20px;
+      text-align: center;
 }
 
 a{
@@ -245,7 +246,7 @@ a{
       }
 
       .c h1{
-            font-size: 40px;
+            font-size: 35px;
             margin: 20px 10px 10px 15px;
             color: white;
             font-weight:lighter ;
@@ -527,6 +528,20 @@ a{
       .all2{
             width:90% ;
       }
+
+      .c h1{
+            font-size: 30px;
+            margin: 20px 10px 10px 15px;
+            color: white;
+            font-weight:lighter ;
+      }
+      
+      .c h2{
+            color: white;
+            font-size: 22px;
+            margin: 10px 10px 10px 15px;
+            font-weight:lighter;
+      }
 }
 
 @media (max-width:1446px){
@@ -588,7 +603,7 @@ a{
       }
 
       .c h1{
-            font-size: 35px;
+            font-size: 27px;
             margin: 20px 10px 10px 15px;
             color: white;
             font-weight:lighter ;
@@ -665,6 +680,14 @@ a{
       .ee{
             height: 80px;
             font-size: 45px;
+      }
+
+      .search:hover{
+            background-color: rgb(2, 168, 168);
+            transform: scale(1.07);
+            padding-bottom: 60px;
+            padding-right: 10px;
+            padding-left: 10px;
       }
 
 }
@@ -768,18 +791,6 @@ a{
 
 }
 
-@media (max-width:1013px){
-
-      div.c{
-            margin-left: 13px;
-      }
-
-      .c img{
-            height: 187.5px;
-            width: 270px;
-      }
-}
-
 @media (max-width:1010px){
 
       
@@ -808,7 +819,7 @@ a{
       }
 
       .search3{
-            font-size: 13px;
+            font-size: 14px;
             margin-left: 5px;
       }
 }
@@ -965,6 +976,7 @@ a{
       .head{
             height: 180px;
             background-size:180px ;
+            margin-bottom: 40px;
       }
 
       .choose{
@@ -976,6 +988,7 @@ a{
       .choose div{
             font-size: 18px;
       }
+
 
       .c img{
             height: 160.5px;
@@ -996,7 +1009,12 @@ a{
       .c h2{
             font-size: 18px;
       }
+
+      body{
+            background-image: url(newphoto.jpeg);
+      }
 }
+
 
 @media (max-width:802px){
 
@@ -1440,6 +1458,10 @@ a{
             margin-left: 25px;
             word-spacing: 130px;
       }
+
+      .search:hover{
+            padding-bottom: 187px;
+      }
 }
 
 @media (max-width:533px){
@@ -1623,23 +1645,33 @@ a{
       }
 
       .c img{
-            height: 240.5px;
-            width: 323px;
+            height: 180.5px;
+            width: 263px;
       }
 
       div.c{
-            margin-left: 25px;
-            width: 323px;
+            width: 0px;
             padding-bottom: 10px;
       }
 
+      .all{
+            width: 80%;
+            margin-left: 30px;
+      }
+
+      .all2{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+      }
+
       .c h1{
-            font-size: 35px;
+            font-size: 30px;
             margin-top: 8px;
       }
 
       .c h2{
-            font-size: 27px;
+            font-size: 22px;
       }
 
       .buy{
@@ -1653,12 +1685,14 @@ a{
             font-size: 35px;
             height: 66px;
             margin-top: 18px;
+            margin-left: 0px;
       }
       
       .ee{
             font-size: 35px;
             height: 65px;
             margin-top: 20px;
+            margin-left: 0px;
       }
 
       .search3{
@@ -1677,10 +1711,13 @@ a{
             margin-left: 160px;
       }
 
-      div.c{
-            margin-left: 10px;
-            width: 0px;
-            padding-bottom: 10px;
+
+}
+
+@media (max-width:400px){
+
+      .all2{
+            width: 90%;
       }
 }
 
@@ -1693,8 +1730,8 @@ a{
       }
 
       .c img{
-            height: 220.5px;
-            width: 303px;
+            height: 180.5px;
+            width: 263px;
       }
 
       div.c{
@@ -1713,6 +1750,14 @@ a{
       .search:hover{
             padding-bottom: 173px;
       }
+
+      .all2{
+            width: 98%;
+      }
+
+      .ee{
+            margin-left: 10px;
+      }
 }
 
 @media (max-width:358px){
@@ -1728,8 +1773,8 @@ a{
       }
 
       .c img{
-            height: 200.5px;
-            width: 283px;
+            height: 150.5px;
+            width: 233px;
       }
 
 }
@@ -1775,10 +1820,13 @@ a{
       }
 
       .c img{
-            height: 180.5px;
-            width: 263px;
+            height: 140.5px;
+            width: 223px;
       }
 
+      div.c{
+            margin-left: 5px;
+      }
 }
 
 

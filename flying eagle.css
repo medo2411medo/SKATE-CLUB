@@ -17,7 +17,7 @@ body{
       background-color: black;
       margin-left: auto;
       margin-right: auto;
-      background-image: url(photo.png);
+      background-image: url(flyingeagle.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size:200px ;
@@ -26,15 +26,15 @@ body{
 
    
 .b{
-      color: rgb(96, 247, 214);
+      color: white;
       font-size: 100px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-style: oblique;
       text-align: center;
-      word-spacing: 270px;
+      word-spacing: 250px;
       letter-spacing: 20px;
       padding-top:40px ;
-      margin-right: 55px;
+      margin-right: 0px;
 }
    
    
@@ -51,14 +51,10 @@ div.c{
 }
 
  .c:hover{
-      background-color: rgb(2, 168, 168);
+      background-color: black;
       transform: scale(1.1);
 }
 
- .c:focus{
-      background-color: rgb(2, 168, 168);
-      transform: scale(1.1);
-}
 
 
 .c img{
@@ -70,12 +66,14 @@ div.c{
       font-size: 30px;
       margin: 10px;
       color: white;
+      font-weight: lighter;
 }
 
 .c h2{
       color: white;
       font-size: 20px;
       margin: 10px;
+      font-weight: lighter;
 }
 
 .e{
@@ -104,7 +102,7 @@ div.c{
       background-color: #222;
       border-radius: 20px;
       border-style:groove;
-      border-color: aqua;
+      border-color: white;
 }
 
 .all2{
@@ -128,7 +126,7 @@ div.c{
       background-color: #111;
       border-radius: 20px;
       font-size: 20px;
-      transition: .3s;
+      transition: .4s;
 }
 
 
@@ -139,15 +137,11 @@ div.c{
 }
 
 div .choose2:hover{
-      background-color: rgb(2, 168, 168);
+      background-color: white;
+      color: black;
       transform: scale(1.1);
-}
 
- .choose2:focus{
-      background-color: rgb(2, 168, 168);
-      transform: scale(1.1);
 }
-
 
 .search{
       height: 35px;
@@ -163,9 +157,8 @@ div .choose2:hover{
 
 
 .search:hover{
-      background-color: rgb(2, 168, 168);
+      background-color: white;
       transform: scale(1.07);
-      padding-bottom: 60px;
 }
 
 .wordsearch{
@@ -174,6 +167,11 @@ div .choose2:hover{
       display: block;
       font-size: 22px;
       letter-spacing: 3px;
+      transition: .5s;
+}
+
+.wordsearch:hover{
+      color: black;
 }
 
 .search2{
@@ -190,6 +188,7 @@ div .choose2:hover{
       background-color: #333;
       padding: 4px 10px;
       border-radius: 20px;
+      text-align: center;
 }
 
 a{
@@ -201,12 +200,13 @@ a{
       margin-left: 76px;
       margin-bottom: 10px;
       margin-top: 10px;
-      padding: 5px 80px;
-      background-color: aqua;
+      padding: 3px 80px;
+      background-color: white;
       display: inline-block;
       border-radius: 20px;
       color: black;
       letter-spacing: 1.5px;
+      font-weight: bolder;
 }
 
 
@@ -219,18 +219,15 @@ a{
 
       div.c{
             width: 247.5px;
-            height: 450px;
             margin-left: 10px;
             margin-bottom:40px ;
             display: inline-table;
-            background-color: #333;
             transition: .3s;
             padding-bottom: 10px;
       }
 
       .e{
             height: 100px;
-            color: white;
             font-size: 55px;
             margin-left:15px ;
             margin-top: 60px;
@@ -238,21 +235,18 @@ a{
       
       .ee{
             height: 100px;
-            color: white;
             font-size: 55px;
             margin-left:15px ;
             margin-top: 15px;
       }
 
       .c h1{
-            font-size: 40px;
+            font-size: 35px;
             margin: 20px 10px 10px 15px;
-            color: white;
             font-weight:lighter ;
       }
       
       .c h2{
-            color: white;
             font-size: 25px;
             margin: 10px 10px 10px 15px;
             font-weight:lighter;
@@ -266,7 +260,6 @@ a{
             margin-top: 10px;
             margin-top: 30px;
             padding: 5px 80px;
-            background-color: aqua;
             display: block;
             width: 80px;
       }
@@ -296,12 +289,9 @@ a{
             padding-top: 20px;
             padding-left: 10px;
             padding-right: 10px;
-            background-color: #222;
             border-radius: 20px;
             border-style:groove;
-            border-color: aqua;
       }
-      
 }
 
 @media (max-width:1889px){
@@ -352,7 +342,6 @@ a{
       
       .ee{
             height: 90px;
-            color: white;
             font-size: 50px;
             margin-left:15px ;
             margin-top: 15px;
@@ -416,7 +405,6 @@ a{
             margin-left: auto;
             margin-right: auto;
             width: 50%;
-            background-color: #222;
             padding-top: 30px;
       }
       
@@ -527,6 +515,20 @@ a{
       .all2{
             width:90% ;
       }
+
+      .c h1{
+            font-size: 30px;
+            margin: 20px 10px 10px 15px;
+            color: white;
+            font-weight:lighter ;
+      }
+      
+      .c h2{
+            color: white;
+            font-size: 22px;
+            margin: 10px 10px 10px 15px;
+            font-weight:lighter;
+      }
 }
 
 @media (max-width:1446px){
@@ -588,14 +590,12 @@ a{
       }
 
       .c h1{
-            font-size: 35px;
+            font-size: 27px;
             margin: 20px 10px 10px 15px;
-            color: white;
             font-weight:lighter ;
       }
       
       .c h2{
-            color: white;
             font-size: 20px;
             margin: 10px 10px 10px 15px;
             font-weight:lighter;
@@ -609,7 +609,6 @@ a{
             margin-top: 10px;
             margin-top: 30px;
             padding: 5px 80px;
-            background-color: aqua;
             display: block;
             width: 40px;
       }
@@ -667,6 +666,13 @@ a{
             font-size: 45px;
       }
 
+      .search:hover{
+            transform: scale(1.07);
+            padding-bottom: 60px;
+            padding-right: 10px;
+            padding-left: 10px;
+      }
+
 }
 
 @media (max-width:1121px){
@@ -684,7 +690,6 @@ a{
             letter-spacing: 2px;
             margin-top:20px ;
             margin-left: 10px;
-            background-color: #333;
             padding: 4px 10px;
             border-radius: 20px;
       }
@@ -734,7 +739,6 @@ a{
       .search3{
             font-size: 16px;
             margin-left: 8px;
-            background-color: #333;
             padding: 4px 10px;
             border-radius: 20px;
       }
@@ -768,18 +772,6 @@ a{
 
 }
 
-@media (max-width:1013px){
-
-      div.c{
-            margin-left: 13px;
-      }
-
-      .c img{
-            height: 187.5px;
-            width: 270px;
-      }
-}
-
 @media (max-width:1010px){
 
       
@@ -808,7 +800,7 @@ a{
       }
 
       .search3{
-            font-size: 13px;
+            font-size: 14px;
             margin-left: 5px;
       }
 }
@@ -841,7 +833,6 @@ a{
             padding: 4px 16px;
             margin-bottom: 15px;
             margin-left: 20px;
-            background-color: #111;
             border-radius: 20px;
             font-size: 20px;
             transition: .3s;
@@ -856,7 +847,6 @@ a{
             padding: 4px 14px;
             margin-bottom: 15px;
             margin-left: 20px;
-            background-color: #111;
             border-radius: 20px;
             font-size: 20px;
             transition: .3s;
@@ -864,6 +854,15 @@ a{
 }
 
 @media (max-width:935px){
+
+      .head{
+            height: 180px;
+            background-size:180px ;
+      }
+
+      .b{
+            font-size: 60px;
+      }
 
       .c img{
             height: 180.5px;
@@ -878,7 +877,6 @@ a{
             padding: 4px 14px;
             margin-bottom: 15px;
             margin-left: 20px;
-            background-color: #111;
             border-radius: 20px;
             font-size: 20px;
             transition: .3s;
@@ -891,7 +889,6 @@ a{
             padding: 4px 13px;
             margin-bottom: 15px;
             margin-left: 20px;
-            background-color: #111;
             border-radius: 20px;
             font-size: 20px;
             transition: .3s;
@@ -904,7 +901,6 @@ a{
             padding: 4px 12px;
             margin-bottom: 15px;
             margin-left: 20px;
-            background-color: #111;
             border-radius: 20px;
             font-size: 20px;
             transition: .3s;
@@ -916,7 +912,6 @@ a{
             padding: 4px 10px;
             margin-bottom: 15px;
             margin-left: 20px;
-            background-color: #111;
             border-radius: 20px;
             font-size: 20px;
             transition: .3s;
@@ -955,16 +950,16 @@ a{
 @media (max-width:880px){
 
       .b{
-            font-size: 70px;
-            word-spacing: 180px;
-            letter-spacing: 14px;
+            font-size: 60px;
+            word-spacing: 190px;
             padding-top:56px ;
-            margin-left: 22px;
+            margin-left: 10px;
       }
 
       .head{
             height: 180px;
             background-size:180px ;
+            margin-bottom: 40px;
       }
 
       .choose{
@@ -976,6 +971,7 @@ a{
       .choose div{
             font-size: 18px;
       }
+
 
       .c img{
             height: 160.5px;
@@ -996,7 +992,12 @@ a{
       .c h2{
             font-size: 18px;
       }
+
+      body{
+            background-image: url(newphoto.jpeg);
+      }
 }
+
 
 @media (max-width:802px){
 
@@ -1010,7 +1011,13 @@ a{
             margin-left: 3px;
       }
 
-
+      .b{
+            font-size: 60px;
+            word-spacing: 190px;
+            letter-spacing: 10px;
+            padding-top:56px ;
+            margin-left: 10px;
+      }
 }
 
 @media (max-width:786px){
@@ -1029,10 +1036,9 @@ a{
 @media (max-width:770px){
 
       .b{
-            font-size: 65px;
             word-spacing: 185px;
             padding-top:56px ;
-            margin-left: 23px;
+            margin-left: 8px;
       }
 
       
@@ -1098,6 +1104,7 @@ a{
             font-size: 16px;
             margin-left: 10px;
       }
+
 }
 
 @media (max-width:744px){
@@ -1108,7 +1115,6 @@ a{
       }
 
       .b{
-            font-size: 60px;
             padding-top:50px ;
       }
 
@@ -1147,7 +1153,6 @@ a{
       }
 
       .b{
-            font-size: 55px;
             padding-top:50px ;
             word-spacing: 160px;
 
@@ -1156,6 +1161,12 @@ a{
 
 @media (max-width:700px){
 
+      .b{
+            font-size: 50px;
+            word-spacing: 190px;
+            padding-top:56px ;
+            margin-left: 10px;
+      }
             
       .c img{
             height: 200.5px;
@@ -1210,30 +1221,28 @@ a{
             width:273px;
             height: 330px;
       }
-}
 
-@media (max-width:665px){
-
-      .b{
-            font-size: 55px;
-            word-spacing: 150px;
-            margin-left: 25px;
-
+      .c h1{
+            font-size: 30px;
+            margin: 20px 10px 10px 15px;
+            color: white;
+            font-weight:lighter ;
+      }
+      
+      .c h2{
+            color: white;
+            font-size: 20px;
+            margin: 10px 10px 10px 15px;
+            font-weight:lighter;
       }
 }
+
 
 @media (max-width:657px){
 
       .head{
             height: 160px;
             background-size:150px ;
-      }
-
-      .b{
-            font-size: 55px;
-            word-spacing: 140px;
-            margin-left: 25px;
-
       }
 }
 
@@ -1243,12 +1252,6 @@ a{
             height: 150px;
             background-size:150px ;
             margin-bottom: 40px;
-      }
-
-      .b{
-            font-size: 45px;
-            word-spacing: 140px;
-            margin-left: 25px;
       }
 
       .choose{
@@ -1269,6 +1272,11 @@ a{
       div.c{
             margin-left: 10px;
             width:253px;
+      }
+
+      .b{
+            word-spacing: 160px;
+            margin-left: 7px;
       }
 }
 
@@ -1291,9 +1299,9 @@ a{
       }
 
       .b{
-            font-size: 42px;
-            word-spacing: 140px;
-            margin-left: 25px;
+            font-size: 45px;
+            word-spacing: 160px;
+            margin-left: 7px;
       }
 }
 
@@ -1351,11 +1359,11 @@ a{
       }
 
       .c h1{
-            font-size: 30px;
+            font-size: 25px;
       }
 
       .c h2{
-            font-size: 20px;
+            font-size: 17px;
       }
 }
 
@@ -1365,12 +1373,6 @@ a{
             height: 140px;
             background-size:140px ;
             margin-bottom: 40px;
-      }
-
-      .b{
-            font-size: 40px;
-            word-spacing: 140px;
-            margin-left: 27px;
       }
 
       .search2{
@@ -1383,15 +1385,10 @@ a{
             padding: 4px 10px;
             border-radius: 20px;
       }
+
 }
 
 @media (max-width:571px){
-
-      .b{
-            font-size: 37px;
-            margin-left: 28px;
-            font-weight: bolder;
-      }
 
       .all2{
             width: 100%;
@@ -1427,6 +1424,15 @@ a{
 
 }
 
+@media (max-width:559px){
+
+      .b{
+            font-size: 40px;
+            word-spacing: 160px;
+            margin-left: 5px;
+      }
+}
+
 @media (max-width:556px){
 
       .head{
@@ -1435,27 +1441,27 @@ a{
             margin-bottom: 35px;
       }
 
-      .b{
-            font-size: 35px;
-            margin-left: 25px;
-            word-spacing: 130px;
+
+
+      .search:hover{
+            padding-bottom: 187px;
       }
 }
 
 @media (max-width:533px){
 
       .b{
-            font-size: 50px;
+            font-size: 40px;
             margin-left: auto;
             margin-right: auto;
             padding: 20px;
-            word-spacing: 0px;
+            word-spacing: -10px;
       }
 
       .head{
             background-size:0px ;
             width: 85%;
-            height:100px;
+            height:90px;
             margin-top: 30px;
       }
 
@@ -1475,7 +1481,7 @@ a{
       }
 
       .b{
-            font-size: 40px;
+            font-size: 37px;
             padding: 20px;
             word-spacing: 0px;
       }
@@ -1504,7 +1510,6 @@ a{
             background-color: black;
             margin-left: auto;
             margin-right: auto;
-            background-image: url(photo.png);
             background-repeat: no-repeat;
             background-position:15px;
             background-size:140px ;
@@ -1514,11 +1519,12 @@ a{
 
       
       .b{
-            font-size: 55px;
+            font-size: 45px;
             word-spacing: 73px;
-            padding-top:20px ;
+            padding-top:30px ;
             margin-left: 170px;
             text-align: start;
+            letter-spacing: 10px;
       }
 
       .all{
@@ -1589,7 +1595,7 @@ a{
       }
 
       .c h1{
-            font-size: 22px;
+            font-size: 20px;
       }
 
       .c h2{
@@ -1597,14 +1603,14 @@ a{
       }
 
       .e{
-            font-size: 35px;
-            height: 66px;
+            font-size: 30px;
+            height: 61px;
             margin-top: 20px;
       }
       
       .ee{
-            font-size: 35px;
-            height: 65px;
+            font-size: 30px;
+            height: 60px;
             margin-top: 20px;
       }
 
@@ -1623,23 +1629,33 @@ a{
       }
 
       .c img{
-            height: 240.5px;
-            width: 323px;
+            height: 180.5px;
+            width: 263px;
       }
 
       div.c{
-            margin-left: 25px;
-            width: 323px;
+            width: 0px;
             padding-bottom: 10px;
       }
 
+      .all{
+            width: 80%;
+            margin-left: 30px;
+      }
+
+      .all2{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+      }
+
       .c h1{
-            font-size: 35px;
+            font-size: 30px;
             margin-top: 8px;
       }
 
       .c h2{
-            font-size: 27px;
+            font-size: 22px;
       }
 
       .buy{
@@ -1650,15 +1666,17 @@ a{
       }
 
       .e{
-            font-size: 35px;
-            height: 66px;
+            font-size: 25px;
+            height: 56px;
             margin-top: 18px;
+            margin-left: 0px;
       }
       
       .ee{
-            font-size: 35px;
-            height: 65px;
+            font-size: 25px;
+            height: 55px;
             margin-top: 20px;
+            margin-left: 0px;
       }
 
       .search3{
@@ -1677,10 +1695,25 @@ a{
             margin-left: 160px;
       }
 
-      div.c{
-            margin-left: 10px;
-            width: 0px;
-            padding-bottom: 10px;
+      .e{
+            font-size: 20px;
+            height: 53px;
+            margin-top: 18px;
+            margin-left: 0px;
+      }
+      
+      .ee{
+            font-size: 20px;
+            height: 52px;
+            margin-top: 20px;
+            margin-left: 0px;
+      }
+}
+
+@media (max-width:400px){
+
+      .all2{
+            width: 90%;
       }
 }
 
@@ -1693,8 +1726,8 @@ a{
       }
 
       .c img{
-            height: 220.5px;
-            width: 303px;
+            height: 180.5px;
+            width: 263px;
       }
 
       div.c{
@@ -1713,6 +1746,14 @@ a{
       .search:hover{
             padding-bottom: 173px;
       }
+
+      .all2{
+            width: 98%;
+      }
+
+      .ee{
+            margin-left: 10px;
+      }
 }
 
 @media (max-width:358px){
@@ -1728,8 +1769,8 @@ a{
       }
 
       .c img{
-            height: 200.5px;
-            width: 283px;
+            height: 150.5px;
+            width: 233px;
       }
 
 }
@@ -1775,8 +1816,11 @@ a{
       }
 
       .c img{
-            height: 180.5px;
-            width: 263px;
+            height: 140.5px;
+            width: 223px;
       }
 
+      div.c{
+            margin-left: 5px;
+      }
 }
