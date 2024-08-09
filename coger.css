@@ -1622,13 +1622,24 @@ a{
 
 @media (max-width:425px){
 
+      .all{
+            width: 99%;
+            border: none;
+      }
+
+      .all2{
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+      }
+
       .b{
             margin-left: 170px;
       }
 
       .c img{
-            height: 180.5px;
-            width: 263px;
+            height: 100.5px;
+            width: 183px;
       }
 
       div.c{
@@ -1636,43 +1647,32 @@ a{
             padding-bottom: 10px;
       }
 
-      .all{
-            width: 80%;
-            margin-left: 30px;
-      }
-
-      .all2{
-            margin-left: auto;
-            margin-right: auto;
-            width: 80%;
-      }
-
       .c h1{
-            font-size: 30px;
+            font-size: 25px;
             margin-top: 8px;
       }
 
       .c h2{
-            font-size: 22px;
+            font-size: 15px;
       }
 
       .buy{
-            padding: 3px 80px;
-            font-size: medium;
-            margin-top: 8%;
+            padding: 1px 50px;
+            font-size: 13px;
+            margin-top: 9%;
 
       }
 
       .e{
-            font-size: 25px;
-            height: 56px;
+            font-size: 35px;
+            height: 66px;
             margin-top: 18px;
             margin-left: 0px;
       }
       
       .ee{
-            font-size: 25px;
-            height: 55px;
+            font-size: 35px;
+            height: 65px;
             margin-top: 20px;
             margin-left: 0px;
       }
@@ -1685,6 +1685,15 @@ a{
       }
 }
 
+@media (max-width:417px){
+
+      .all2{
+            margin-left: auto;
+            margin-right: auto;
+            width: 96%;
+      }
+}
+
 @media (max-width:410px){
 
       .b{
@@ -1693,68 +1702,114 @@ a{
             margin-left: 160px;
       }
 
-      .e{
-            font-size: 20px;
-            height: 53px;
-            margin-top: 18px;
-            margin-left: 0px;
-      }
-      
-      .ee{
-            font-size: 20px;
-            height: 52px;
-            margin-top: 20px;
-            margin-left: 0px;
-      }
+
 }
 
 @media (max-width:400px){
 
       .all2{
-            width: 90%;
+            width: 98%;
+      }
+}
+
+@media (max-width:393px){
+
+      .all2{
+            width: 99%;
+      }
+
+      .b{
+            margin-left: 160px;
+      }
+
+      .c img{
+            height: 95.5px;
+            width: 178px;
+      }
+
+      div.c{
+            width: 0px;
+            padding-bottom: 10px;
+      }
+
+      .c h1{
+            font-size: 25px;
+            margin-top: 8px;
+      }
+
+      .c h2{
+            font-size: 15px;
+      }
+
+      .buy{
+            padding: 1px 50px;
+            font-size: 13px;
+            margin-top: 9%;
+
+      }
+
+      .e{
+            font-size: 30px;
+            height: 55px;
+            margin-top: 18px;
+            margin-left: 2px;
+      }
+      
+      .ee{
+            font-size: 30px;
+            height: 55px;
+            margin-top: 20px;
+            margin-left: 2px;
+      }
+
+      .search3{
+            font-size: 12px;
+            width: 70px;
+            margin-left: auto;
+            margin-right: auto;
       }
 }
 
 @media (max-width:377px){
 
-      .b{
-            padding-top: 35px;
-            font-size: 40px;
-            margin-left: 160px;
+
+      .choose{
+            width: 95%;
       }
 
+      .choose div{
+            padding:4px 0px;
+            font-size: 14px;
+            margin-left: 6px;
+            margin-right: 4px;
+            text-align: center;
+      }
+
+}
+
+@media (max-width:369px){
+
       .c img{
-            height: 180.5px;
-            width: 263px;
+            height: 90.5px;
+            width: 173px;
       }
 
       div.c{
-            margin-left: 8px;
             width: 0px;
             padding-bottom: 10px;
       }
 
-      .search3{
-            font-size: 12px;
-            width:50px;
-            margin-left: auto;
-            margin-right: auto;
+      .c h1{
+            font-size: 22px;
+            margin-top: 8px;
       }
 
-      .search:hover{
-            padding-bottom: 173px;
-      }
-
-      .all2{
-            width: 98%;
-      }
-
-      .ee{
-            margin-left: 10px;
+      .c h2{
+            font-size: 13px;
       }
 }
 
-@media (max-width:358px){
+@media (max-width:359px){
 
       .head{
             background-position:10px;
@@ -1766,9 +1821,27 @@ a{
             margin-left: 150px;
       }
 
+      .e{
+            margin-left: 4px;
+      }
+
       .c img{
-            height: 150.5px;
-            width: 233px;
+            height: 85.5px;
+            width: 168px;
+      }
+
+      div.c{
+            width: 0px;
+            padding-bottom: 10px;
+      }
+
+      .ee{
+            margin-left: 4px;
+      }
+
+      .all2{
+
+            width: 100%;
       }
 
 }
@@ -1791,17 +1864,45 @@ a{
       }
 }
 
-@media (max-width:339px){
+@media (max-width:347px){
 
-
-      .all2{
-            width: 98%;
+      .c img{
+            height: 80.5px;
+            width: 163px;
       }
 
       div.c{
-            margin-left: 2px;
-            width: 133px;
-            height: 170px;
+            width: 0px;
+            padding-bottom: 10px;
+      }
+}
+
+@media (max-width:335px){
+
+      .c img{
+            height: 77.5px;
+            width: 160px;
+      }
+
+      div.c{
+            width: 0px;
+            padding-bottom: 10px;
+      }
+
+      .c h1{
+            font-size: 20px;
+            margin-top: 8px;
+      }
+
+      .c h2{
+            font-size: 13px;
+      }
+
+      .buy{
+            padding: 1px 45px;
+            font-size: 12px;
+            margin-top: 9%;
+
       }
 }
 
@@ -1814,11 +1915,12 @@ a{
       }
 
       .c img{
-            height: 140.5px;
-            width: 223px;
+            height: 72.5px;
+            width: 156px;
       }
 
       div.c{
-            margin-left: 5px;
+            width: 0px;
+            padding-bottom: 10px;
       }
 }
