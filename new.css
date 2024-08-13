@@ -1438,7 +1438,7 @@ a{
 
       .search:hover{
             transform: scale(1.07);
-            padding-bottom: 175px;
+            padding-bottom: 155px;
             padding-left: 0px;
             padding-right: 0px;
       }
@@ -1460,7 +1460,7 @@ a{
       }
 
       .search:hover{
-            padding-bottom: 187px;
+            padding-bottom: 155px;
       }
 }
 
@@ -1607,7 +1607,7 @@ a{
       .search:hover{
             background-color: rgb(2, 168, 168);
             transform: scale(1.07);
-            padding-bottom: 155px;
+            padding-bottom: 135px;
       }
 
       .c h1{
