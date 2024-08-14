@@ -52,7 +52,7 @@ body{
 @media (max-width:570px){
     
     .gg{
-        height: 270px;
+        height: 300px;
     }
 
     .details{
@@ -63,18 +63,7 @@ body{
 @media (max-width:474px){
     
     .gg{
-        height: 320px;
-    }
-
-    .details{
-        line-height: 40px;
-    }
-}
-
-@media (max-width:354px){
-    
-    .gg{
-        height: 370px;
+        height: 350px;
     }
 
     .details{
@@ -86,6 +75,17 @@ body{
     
     .gg{
         height: 400px;
+    }
+
+    .details{
+        line-height: 40px;
+    }
+}
+
+@media (max-width:354px){
+    
+    .gg{
+        height: 430px;
     }
 
     .details{
