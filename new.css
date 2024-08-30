@@ -165,7 +165,6 @@ div .choose2:hover{
 .search:hover{
       background-color: rgb(2, 168, 168);
       transform: scale(1.07);
-      padding-bottom: 60px;
 }
 
 .wordsearch{
@@ -176,22 +175,7 @@ div .choose2:hover{
       letter-spacing: 3px;
 }
 
-.search2{
 
-}
-
-.search3{
-      color: white;
-      font-size: 18px;
-      letter-spacing: 2px;
-      display: inline-block;
-      margin-top:20px ;
-      margin-left: 15px;
-      background-color: #333;
-      padding: 4px 10px;
-      border-radius: 20px;
-      text-align: center;
-}
 
 a{
       text-decoration-line: none ;
@@ -685,9 +669,6 @@ a{
       .search:hover{
             background-color: rgb(2, 168, 168);
             transform: scale(1.07);
-            padding-bottom: 60px;
-            padding-right: 10px;
-            padding-left: 10px;
       }
 
 }
@@ -1333,12 +1314,6 @@ a{
             padding:3px 70px ;
       }
 
-      .search:hover{
-            padding-bottom: 50px;
-            padding-left: 20px;
-            padding-right: 20px
-      }
-
       .wordsearch{
             padding-top:2px;
             font-size: 20px;
@@ -1438,9 +1413,6 @@ a{
 
       .search:hover{
             transform: scale(1.07);
-            padding-bottom: 155px;
-            padding-left: 0px;
-            padding-right: 0px;
       }
 
 }
@@ -1607,7 +1579,6 @@ a{
       .search:hover{
             background-color: rgb(2, 168, 168);
             transform: scale(1.07);
-            padding-bottom: 135px;
       }
 
       .c h1{
@@ -1652,7 +1623,7 @@ a{
       }
 
       .b{
-            margin-left: 170px;
+            margin-left: 165px;
       }
 
       .c img{
@@ -1716,8 +1687,8 @@ a{
 
       .b{
             padding-top: 30px;
-            font-size: 45px;
-            margin-left: 160px;
+            font-size: 42px;
+            margin-left: 157px;
       }
 
 
@@ -1737,7 +1708,7 @@ a{
       }
 
       .b{
-            margin-left: 160px;
+            margin-left: 156px;
       }
 
       .c img{
@@ -1806,8 +1777,8 @@ a{
 
       .b{
             padding-top: 30px;
-            font-size: 40px;
-            margin-left: 160px;
+            font-size: 38px;
+            margin-left: 155px;
       }
 
 
@@ -1843,7 +1814,7 @@ a{
 
       .b{
             padding-top: 35px;
-            font-size: 40px;
+            font-size: 36px;
             margin-left: 150px;
       }
 
@@ -1885,8 +1856,8 @@ a{
 
       .b{
             padding-top: 37px;
-            font-size: 38px;
-            margin-left: 135px;
+            font-size: 35px;
+            margin-left: 130px;
       }
 }
 
